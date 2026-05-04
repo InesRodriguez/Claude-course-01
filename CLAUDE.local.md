@@ -61,7 +61,9 @@ User prompt → /api/chat → Claude (with tools) → VirtualFileSystem → JSX 
 
 ### Database (Prisma + SQLite)
 
-Schema: `prisma/schema.prisma`. Two models:
+**Always refer to `prisma/schema.prisma` for the authoritative database structure.**
+
+Two models:
 - `User` — email + bcrypt password
 - `Project` — name, optional userId, JSON messages + file data
 
